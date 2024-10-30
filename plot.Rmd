@@ -14,5 +14,36 @@ library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 library(rnoaa)
+library(lubridate)
 ```
+
+
+```{r}
+noaa <- read_csv("data/nynoaadat.csv")
+
+clean_noaa <- noaa %>%
+  mutate(
+    precip = case_when(
+      prcp == 0 ~ "No Precipitation",
+      prcp > 0 & prcp <= 10 ~ "Light",
+      prcp > 10 & prcp <= 30 ~ "Moderate",
+      prcp > 30 ~ "Heavy"
+    )
+  ) %>%
+  select(id, date, tmax, tmin, prcp, precip) %>%
+  filter(
+    !is.na(tmax),
+    !is.na(prcp),
+    precip %in% c("Light", "Moderate", "Heavy")
+  )
+
+head(clean_noaa)
+```
+
+
+
+
+
+
+
 
