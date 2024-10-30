@@ -57,7 +57,19 @@ plot1
 ```
 
 
+```{r}
+#compute the average maximum temperature
+avg_temp <- sample %>%
+  group_by(precip) %>%
+  summarize(avg_tmax = mean(tmax, na.rm = TRUE))
 
+#bar plot
+plot2 <- plot_ly(avg_temp, x = ~precip, y = ~avg_tmax, type = 'bar') %>%
+  layout(title = "Average Maximum Temperature by Precipitation Intensity",
+         xaxis = list(title = "Precipitation Intensity"),
+         yaxis = list(title = "Average Max Temperature"))
+plot2
+```
 
 
 
