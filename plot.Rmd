@@ -72,4 +72,16 @@ plot2
 ```
 
 
+```{r}
+#make a new column for data by month
+sample <- sample %>%
+  mutate(month = month(date, label = TRUE))
+
+#box plot for temperature distribution by month
+plot3 <- plot_ly(sample, x = ~month, y = ~tmax, type = 'box') %>%
+  layout(title = "Temperature Distribution by Month",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Max Temperature"))
+plot3
+```
 
