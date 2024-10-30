@@ -41,7 +41,10 @@ head(clean_noaa)
 ```
 
 
-
+```{r}
+set.seed(888)  
+sample <- clean_noaa %>% sample_n(5000)
+```
 
 
 
