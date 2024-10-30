@@ -9,3 +9,10 @@ output:
 # This is about plot
 
 
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(rnoaa)
+```
+
