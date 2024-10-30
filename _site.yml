@@ -9,6 +9,10 @@ navbar:
       href: mailto:yl5829@cumc.columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/NiluYuiL188
+    - icon: fa-solid fa-phone
+      href: 2028941546
+    - icon: fa-brands fa-discord
+      href: https://discord.com/users/RegenLied
 output:
   html_document:
     theme: cerulean
