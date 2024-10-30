@@ -14,6 +14,3 @@ Besides there will be a link derive to flexdashboard.
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 [About me](about.html)
-
-
-[Plot](plot.html)
