@@ -6,11 +6,6 @@ output:
     toc_float: true
 ---
 
-# This is Yulin's awesome website
+# This is about plot
 
-In this website you will see my personal information, including mail and resume.
-Besides there will be a link derive to flexdashboard.
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-[About me](about.html)
