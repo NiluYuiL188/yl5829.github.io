@@ -10,6 +10,7 @@ output:
 
 
 ```{r}
+Sys.setlocale("LC_TIME", "C")
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -45,6 +46,16 @@ head(clean_noaa)
 set.seed(888)  
 sample <- clean_noaa %>% sample_n(5000)
 ```
+
+```{r}
+#scatter plot of maximum temperature over time
+plot1 <- plot_ly(sample, x = ~date, y = ~tmax, type = 'scatter', mode = 'markers') %>%
+  layout(title = "Maximum Temperature Over Time",
+         xaxis = list(title = "Date"),
+         yaxis = list(title = "Max Temperature"))
+plot1
+```
+
 
 
 
