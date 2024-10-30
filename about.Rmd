@@ -17,5 +17,51 @@ output:
     toc_float: true
 ---
 
+# Contact Information
+- **Email:** yl5829@cumc.columbia.edu  
+- **Address:** 50 Haven Ave, New York, NY, 10032  
+
+# Education
+**University of Michigan**  
+
+Bachelor of Science in Economics and Statistics
+
+# Professional Experience
+
+## Quantitative Research Intern  
+**Guotai Junan Securities (GTJA)**, Shanghai, China  
+
+- Designed quantitative trading strategies, incorporating pairs trading, momentum, and event-driven strategies using Python and R.
+- Conducted statistical analyses to identify key variables and build predictive models, enhancing decision-making processes.
+
+## Investment Banking Analyst  
+**China Securities**, Shanghai, China  
+
+- Collaborated with a team on financial analysis and project proposals, focusing on equity acquisitions and M&A scenarios.
+- Conducted due diligence, discounted cash flow, and comparable company analyses, contributing to a high-scoring project proposal.
+
+# Research Experience
+
+## Political Leanings Analysis Research Project  
+**University of Michigan**, Ann Arbor, MI  
+*Research Assistant*  
+
+- Analyzed evidence of voter fraud using survey data, Twitter analytics, and predictive models.
+- Processed Twitter data and multilingual election surveys to derive insights on political trends, utilizing the e-Forensics model for analysis.
+
+
+# Leadership Experience
+
+## Event Organizer and Volunteer Instructor  
+**For Love of Children**, Washington, DC  
+
+- Organized math activities for elementary students and provided tutoring in elementary mathematics.
+
+# Skills
+- **Programming Languages:** Python, R  
+- **Statistical Analysis:** Regression, Time-series forecasting, Hypothesis testing  
+- **Financial Modeling:** M&A analysis, DCF, Comparable Company Analysis  
+- **Data Processing Tools:** Twitter API, Data Cleaning  
+
 
 
