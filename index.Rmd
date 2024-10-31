@@ -1,10 +1,10 @@
 ---
 title: "Hello World"
-output: 
+output:
   html_document:
-    toc: true
-    toc_float: true
+    theme: cerulean
 ---
+
 
 # This is Yulin's awesome website
 
