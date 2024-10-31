@@ -8,6 +8,8 @@ output:
 
 # This is Yulin's awesome website
 
+Hello My Friend.
+
 In this website you will see my personal information, including mail and resume.
 Besides there will be a link derive to flexdashboard.
 
